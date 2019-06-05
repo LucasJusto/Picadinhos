@@ -2,7 +2,7 @@ Repositório que guarda o algoritmo mais rápido (que eu ja consegui fazer) para
 
 Problema dos picadinhos:
 Imagine o número 15
-\n 1+2+3+4+5 = 15
+<p> 1+2+3+4+5 = 15
 4+5+6 = 15
 7+8 = 15
 15 = 15
