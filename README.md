@@ -17,7 +17,7 @@ que resolve o problema em menos de 1 segundo e começa a ter demora notavel some
   
  <b>Algoritmo 2 (PicadinhosMedio)</b>
  <p> É o algoritmo desenvolvido no segundo contato com o problema, ja com algumas otimizaçes como trocar o calculo de somatórios ( ao em vez de usar laços usar a fórmula de gauss que é O(1) e nao O(n) como laços). E ficar alterando inicio e fim de acordo com o resultado do somatorio anterior. Mas isso ainda testa varios somatorios repitidos para cada n de 1 até 1 milhao.
- <b>Algoritmo 3 (Picadinhos)</b>
+ <p><b>Algoritmo 3 (Picadinhos)</b>
   <p>É o melhor algoritmo desenvolvido por mim até agora para os picadinhos, foi desenvolvido no terceiro contato com o problema dos picadinhos. Ele basicamente nota que no algoritmo antigo testavamos vários somatorios mais de uma vez, e entao seria mais inteligente testar todos os possiveis direto e só anotar quantos somatorios tem como respostas os numeros de 1 a 1 milhao. E a cada iteraçao dessas ver o maior ja achado até entao.
 
 <b>COMPARAÇÃO DOS 3 ALGORITMOS:</b> (resposta, picadinhos, tempo em ms)
