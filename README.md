@@ -1,4 +1,4 @@
-<h1>PROBLEMA DOS PICADINHOS
+<h1>PROBLEMA DOS PICADINHOS</h1>
 Repositório que guarda o algoritmo mais rápido (que eu ja consegui fazer) para o problema dos picadinhos.
 
 Problema dos picadinhos:
