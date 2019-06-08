@@ -29,7 +29,7 @@ que resolve o problema em menos de 1 segundo e começa a ter demora notavel some
 <p>PICADINHOS (1 a 10.000): 3465 24 6ms
   
   <b>PICADINHOS(resultados para 1, 10 e 100 milhoes com o melhor algoritmo deste respositorio)</b>
-  <p>1 milhao: 675.675 96 61ms
-  <p>10 milhoes: 6.891.885 160 1234ms
-  <p>100 milhoes: 72.747.675 288 15275ms
+  <p><b>1 milhao:</b> <b>Resultado:</b> 675.675 <b>Resultado:</b> <b>Picadinhos:</b> 96 <b>Tempo:</b> 61ms
+  <p><b>10 milhoes:</b> <b>Resultado:</b> 6.891.885 <b>Picadinhos:</b> 160 <b>Tempo:</b> 1234ms
+  <p><b>100 milhoes:</b> <b>Resultado:</b> 72.747.675 <b>Picadinhos:</b>288 <b>Tempo:</b>15275ms
   
