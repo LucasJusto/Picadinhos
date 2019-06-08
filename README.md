@@ -9,12 +9,27 @@ Imagine o número 15
 
 Estes 4 somatórios de números sequenciais (ordem dos naturais) tem como resultado 15, ou seja 15 tem 4 picadinhos.
 Sabendo o que são picadinhos de um número, o problema trata de dizer qual o número com mais picadinhos de 1 a 1 milhão, o que
-se for feito com um algoritmo simples demora aproximadamente 5 dias para um computador responder. Eu consegui fazer este código
+se for feito com um algoritmo simples demora vários dias para um computador responder. Eu consegui fazer este código
 que resolve o problema em menos de 1 segundo e começa a ter demora notavel somente do 1 a 100 milhões (15 segundos).
 
-Resultados
+<b>Algoritmo 1 (PicadinhosRuim)</b>:
+  <p>É o algoritmo que mais demora. Demora vários dias para responder de 1 a 1 milhão. Ele simplesmente testa todos os somatórios possiveis de 1 até (n/2)+1 ( por que se somar metade+1 + metade+2 sempre vai dar maior que o número ) para cada n de 1 até 1 milhão.
+  
+ <b>Algoritmo 2 (PicadinhosMedio)</b>
+ <p> É o algoritmo desenvolvido no segundo contato com o problema, ja com algumas otimizaçes como trocar o calculo de somatórios ( ao em vez de usar laços usar a fórmula de gauss que é O(1) e nao O(n) como laços). E ficar alterando inicio e fim de acordo com o resultado do somatorio anterior. Mas isso ainda testa varios somatorios repitidos para cada n de 1 até 1 milhao.
+  <b>Algoritmo 3 (Picadinhos)</b>
+  <p>É o melhor algoritmo desenvolvido por mim até agora para os picadinhos, foi desenvolvido no terceiro contato com o problema dos picadinhos. Ele basicamente nota que no algoritmo antigo testavamos vários somatorios mais de uma vez, e entao seria mais inteligente testar todos os possiveis direto e só anotar quantos somatorios tem como respostas os numeros de 1 a 1 milhao. E a cada iteraçao dessas ver o maior ja achado até entao.
 
-<p>1 a 1 milhão: ( número : 675.675  picadinhos: 96   tempo: 0,3 segundos )
-<p>1 a 10 milhões: ( número : 6.891.885  picadinhos: 160   tempo: 1,397 segundos )
-<p>1 a 100 milhões: ( número : 72.747.675  picadinhos: 288    tempo: 15,782 segundos )
+<b>COMPARAÇÃO DOS 3 ALGORITMOS:</b> (resposta, picadinhos, tempo em ms)
 
+<p>PICADINHOS RUIM(1 a 1.000): 945 16 3225ms
+
+<p>PICADINHOS MEDIO(1 a 10.000): 3465  24 169ms
+
+<p>PICADINHOS (1 a 10.000): 3465 24 6ms
+  
+  <b>PICADINHOS(resultados para 1, 10 e 100 milhoes com o melhor algoritmo deste respositorio)</b>
+  <p>1 milhao: 675.675 96 61ms
+  <p>10 milhoes: 6.891.885 160 1234ms
+  <p>100 milhoes: 72.747.675 288 15275ms
+  
