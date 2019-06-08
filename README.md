@@ -22,14 +22,14 @@ que resolve o problema em menos de 1 segundo e começa a ter demora notavel some
 
 <b>COMPARAÇÃO DOS 3 ALGORITMOS:</b> (resposta, picadinhos, tempo em ms)
 
-<p>PICADINHOS RUIM(1 a 1.000): 945 16 3225ms
+<p><b>PICADINHOS RUIM(1 a 1.000):</b> <b>Resultado:</b> 945 <b>Picadinhos:</b> 16 <b>Tempo:</b> 3225ms
 
-<p>PICADINHOS MEDIO(1 a 10.000): 3465  24 169ms
+<p><b>PICADINHOS MEDIO(1 a 10.000):</b> <b>Resultado:</b> 3465  <b>Picadinhos:</b> 24 <b>Tempo:</b> 169ms
 
-<p>PICADINHOS (1 a 10.000): 3465 24 6ms
+<p><b>PICADINHOS (1 a 10.000):</b> <b>Resultado:</b> 3465 <b>Picadinhos:</b> 24 <b>Tempo:</b> 6ms
   
   <b>PICADINHOS(resultados para 1, 10 e 100 milhoes com o melhor algoritmo deste respositorio)</b>
-  <p><b>1 milhao:</b> <b>Resultado:</b> 675.675 <b>Resultado:</b> <b>Picadinhos:</b> 96 <b>Tempo:</b> 61ms
+  <p><b>1 milhao:</b> <b>Resultado:</b> 675.675  <b>Picadinhos:</b> 96 <b>Tempo:</b> 61ms
   <p><b>10 milhoes:</b> <b>Resultado:</b> 6.891.885 <b>Picadinhos:</b> 160 <b>Tempo:</b> 1234ms
-  <p><b>100 milhoes:</b> <b>Resultado:</b> 72.747.675 <b>Picadinhos:</b>288 <b>Tempo:</b>15275ms
+  <p><b>100 milhoes:</b> <b>Resultado:</b> 72.747.675 <b>Picadinhos:</b> 288 <b>Tempo:</b> 15275ms
   
