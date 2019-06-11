@@ -33,4 +33,7 @@ que resolve o problema em menos de 1 segundo e começa a ter demora notavel some
   <p><b>1 milhao:</b> <b>Resultado:</b> 675.675  <b>Picadinhos:</b> 96 <b>Tempo:</b> 27ms
   <p><b>10 milhoes:</b> <b>Resultado:</b> 6.891.885 <b>Picadinhos:</b> 160 <b>Tempo:</b> 1234ms
   <p><b>100 milhoes:</b> <b>Resultado:</b> 72.747.675 <b>Picadinhos:</b> 288 <b>Tempo:</b> 15275ms
+    
+<h2>ATUALIZAÇÃO DE CASO</h2>
+<p>Fiz uma otimização extra e adicionei neste repositório (PicadinhosGodLike.java), basicamente notei que os somatórios estavam em ordem sequencial nesses 2 fors, entao ao em vez de ficar chamando uma formula fechada que apresenta divisão e multiplicação (operaçoes que devem ter seus custos operacionais levados em conta) notei que seria melhor só fazer result+=j o que era bem mais barato que a formula (levando em conta que ela era usada literalmente milhoes de vezes). Isso apresentou uma melhora signitificativa no percentual de tempo que o programa demora pra responder, mas não foi nada representativo em questao de tempo real, ja que tratava-se de poucos milissegundos e porcentagem de poucos milissegundos são outros poucos milissegundos (inotável para um ser humano).
   
